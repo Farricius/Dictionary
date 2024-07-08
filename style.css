@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Evitar   poppins en examples */
+*:not(i) {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #adb0fc;
+}
+
+.container {
+  background-color: #ffffff;
+  width: 90vmin;
+  max-width: 90vw;
+  margin: 5% auto;
+  margin-bottom: 25px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px rgba(38, 33, 61, 0.1);
+}
+
+.search-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-box input {
+  padding: 5px;
+  width: 60%;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid steelblue;
+  font-size: 1.5rem;
+}
+
+.search-box button {
+  padding: 5px 0;
+  width: 30%;
+  background-color: steelblue;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.result {
+  position: relative;
+}
+
+.result h3 {
+  font-size: 1.5rem;
+  color: rgb(31, 103, 161);
+}
+
+.result .word {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.result button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 48px;
+  cursor: pointer;
+}
+
+.result .details {
+  display: flex;
+  gap: 20px;
+  color: black;
+  margin: 5px 0 10px 0;
+  font-size: 14px;
+}
+
+.word-meaning {
+  color: black;
+}
+
+.word-example {
+  color: black;
+  font-style: italic;
+  border-left: 5px solid steelblue;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.error {
+  font-size: 1.25rem;
+  color: red;
+  margin-top: 50px;
+}
+
+small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.7rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+#info {
+  color: purple;
+  font-size: 1rem;
+}
+
+#me {
+  text-decoration: underline;
+  color: blue;
+}
